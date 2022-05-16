@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api_personal_money"
+version = "0.1.0"
+description = ""
+authors = ["Cleber Goulart Nandi"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.6"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
